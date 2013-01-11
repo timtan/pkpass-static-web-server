@@ -8,6 +8,7 @@ long_description = (open('README.md').read()  )
 setup(
     name='PkpassStaticWebServer',
     version='0.1', 
+    url='https://github.com/timtan/pkpass-static-web-server',
     description='a static server can server pkpass file', 
     long_description=long_description,
     author='tim',
@@ -18,3 +19,4 @@ setup(
             'pkpass-static-web-server= pkpass_static_web_server:main',
         ]
     },
+    )
