@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     author='tim',
     author_email='tim.yellow@gmail.com',
-    py_modules=['pkpass_static_web_server']
+    py_modules=['pkpass_static_web_server'],
     zip_safe=False,
     entry_points={
         'console_scripts': [
